@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-claudia
+  host: aplicacao-de-teste-claudia
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-claudia-AdvancedMobileAccess
+  - aplicacao-de-teste-claudia-imfpush
+  - aplicacao-de-teste-claudia-cloudantNoSQLDB
